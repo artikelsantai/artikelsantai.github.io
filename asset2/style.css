@@ -1,0 +1,198 @@
+*{
+	margin:0; padding:0;
+	font-family:arial, san-serif;
+}
+
+.clear{
+	clear:both;
+}
+
+ h2{
+	margin-bottom: 15px;
+}
+
+body{
+  background-image: url('images/Night.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.images{
+	display:block;
+	width:100%;
+	height:auto;
+	box-sizing:border-box;
+}
+
+.images2{
+	display:block;
+	width:auto;
+	height:auto;
+	box-sizing:border-box;
+	margin:0 auto;
+}
+
+#back{
+	display:block;
+	width:100px; height:100px;
+	box-sizing:border-box;
+	position:fixed;
+	background-color:red;
+	color:white;
+	right:15px;
+	text-align:center;
+	line-height:100px;
+	bottom:0; text-decoration:none;
+	border-radius:6px 6px 0 0;
+}
+#back:hover{
+	background-color:black;
+	color:white;
+}
+
+#main_menu{
+	width:100%;
+	box-sizing:border-box;
+	height:675px;
+	background-image:url("images/bg1.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-attachment:fixed;
+	padding-top:50px;
+	margin-bottom:55px;
+}
+
+#main_menu > #menu{
+	width:80%;
+	box-sizing:border-box;
+	margin:0 auto;
+}
+
+#main_menu > #menu > img{
+	display:block;
+	box-sizing:border-box;
+	width:200px; height:200px;
+	margin:0 auto 100px auto;
+}
+
+#main_menu > #menu > a{
+	display:block;
+	width:25%; height:55px;
+	font-size:30px; text-align:center; text-decoration:none;
+	box-sizing:border-box;
+	float:left;
+	background-color:#0389c2;
+	color:white;
+	line-height:1.5;
+}
+
+#main_menu > #menu > a:hover{
+	background-color:#0389ff
+}
+
+/*  ----------   Bagian Artikel  -------------  */
+
+#article{
+	width:80%;
+	box-sizing:border-box;
+	margin: 0 auto; padding:25px 15px;
+	line-height:1.5;
+	border: 1px solid black;
+	background-color:white;
+}
+
+#article h1{
+	text-align:center;
+	margin-bottom:55px;
+}
+
+#article p{
+	text-indent:50px;
+}
+
+#article_desain, #article_performance, #article_connection, #article_software{
+	margin-bottom:25px;
+
+}
+
+
+#cipta{
+  display:block;
+  width:70%;
+  box-sizing:border-box;
+  margin:45px auto;
+  background-color: white;
+  border-radius:6px;
+}
+#cipta_left{
+  border-right:1px solid black;
+}
+#cipta_left, #cipta_right{
+  display:block;
+  width:50%;
+  box-sizing:border-box;
+  float:left;
+}
+#cipta_left img{
+  display:block;
+  box-sizing:border-box;
+  width:150px;
+  height:150px;
+  margin:0 auto;
+}
+
+#cipta_right{
+  padding:5px 10px;
+}
+#cipta_right h4{
+  background-color:rgb(255, 70, 70);
+  color:white;
+  padding:5px;
+  font-size:35px;
+  border-radius:0px 8px 8px 0px;
+}
+#cipta_right h5{
+  width:80%;
+  border-radius:0px 8px 8px 0px;
+  font-weight:bold;
+  font-size:18px;
+  color:white;
+  background-color:#0389c2;
+  padding:5px;
+  margin-bottom:10px;
+}
+#cipta_right p{
+  text-align:center;
+}
+
+#footer{
+  width:100%;
+  box-sizing:border-box;
+  display:block;
+  background-color:#0389c2;
+  padding:10px;
+}
+
+#footer h2{
+  text-align:center;
+  color:white;
+  margin-bottom:20px;
+}
+#footer h2:hover{
+  text-decoration:underline;
+}
+
+#footer ul{
+  margin-left:20px;
+  color:white;
+  margin-top:25px;
+  margin-bottom:25px;
+}
+
+#footer > ul > li{
+  margin-bottom:8px;
+}
+#footer > ul > li:hover{
+  text-decoration:overline;
+}
+
